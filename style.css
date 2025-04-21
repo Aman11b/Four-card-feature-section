@@ -4,6 +4,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* Prevent font size inflation */
@@ -89,7 +91,7 @@ textarea:not([rows]) {
 
   --fs-body: 15px;
 
-  --ff: font-family: "Poppins", sans-serif;
+  --ff:"Poppins", sans-serif;
 }
 
 body{
@@ -102,5 +104,32 @@ body{
 
 /* mobile design */
 @media screen and (max-width: 375px) {
+  .wrapper{
+    padding: 2.4rem;
+
+    display: flex;
+    flex-direction: column;
+
+    gap:2rem;
+  }
+
+  header {
+    min-width: 32ch;
+  }
+  .first_heading {
+    font-weight: 200;
+    margin-top: 0;
+  }
+
+  .second_heading {
+    margin-top: 0.5rem;
+    font-weight: 600;
+
+  }
+
+  .heading_para {
+    margin-top: 1rem;
+  }
+
 
 }
