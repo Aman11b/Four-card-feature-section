@@ -142,13 +142,16 @@ body{
   }
 
 
-  .Supervisor {
+  .Supervisor,
+  .Team-Builder,
+  .Karma,
+  .Calculator {
     height: 200px;
     padding: 2rem;
     color: var(--grey-400);
     font-size: 12px;
 
-    border-top: 4px solid red !important;
+ 
     
     box-shadow: 0px 3px 6px 2px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
@@ -156,14 +159,29 @@ body{
     display: flex;
     flex-direction: column;
 
-    outline: 2px solid red;
-
   }
-  .Supervisor > img {
+  .Supervisor > img,
+  .Team-Builder > img,
+  .Karma > img,
+  .Calculator > img {
     aspect-ratio: 1;
     width: 50px;
     margin-top: auto;
     align-self: flex-end
+
+  }
+
+  .Supervisor {
+    border-top: 4px solid var(--clr-cyan) !important;
+  }
+  .Team-Builder {
+    border-top: 4px solid var(--clr-red) !important;
+  }
+  .Karma {
+    border-top: 4px solid var(--clr-orange) !important;
+  }
+  .Calculator {
+    border-top: 4px solid var(--clr-blue) !important;
 
   }
 
