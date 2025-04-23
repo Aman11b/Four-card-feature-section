@@ -231,7 +231,6 @@ header {
   .Team-Builder,
   .Karma,
   .Calculator {
-    height: 200px;
     padding: 2rem;
     color: var(--grey-400);
     font-size: 12px;
