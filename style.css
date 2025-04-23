@@ -150,15 +150,15 @@ header {
 }
 .Team-Builder{
   grid-area: Team-Builder;
+  margin-left: 50%;
 }
 .Karma {
   grid-area:  Karma;
+  margin-left: 50%;
 }
 .Calculator{
   grid-area: Calculator;
 }
-
-
 
 
 .Supervisor,
@@ -243,6 +243,13 @@ header {
     display: flex;
     flex-direction: column;
 
+  }
+
+  .Team-Builder{
+    margin-left:0;
+  }
+  .Karma {
+    margin-left: 0;
   }
 
 
