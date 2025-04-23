@@ -101,16 +101,53 @@ body{
 }
 
 /* desktop design */
+.wrapper{
+  padding: 8rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap:2rem;
+}
+
+header {
+  max-width: 54ch;
+  color: var(--grey-400);
+  text-align: center;
+}
+
+.first_heading {
+  font-weight: 200;
+  margin-top: 0;
+  align-self: center;
+}
+
+.second_heading {
+  margin-top: 0.5rem;
+  font-weight: 600;
+  color: var(--grey-500);
+}
+
+.heading_para {
+  margin-top: 1rem;
+}
+
+.cards{
+  display: flex;
+  flex-direction: column;
+
+  gap: 1rem;
+
+}
+
+
 
 /* mobile design */
 @media screen and (max-width: 375px) {
   .wrapper{
     padding: 2.4rem;
-
-    display: flex;
-    flex-direction: column;
-
-    gap:2rem;
   }
 
   header {
