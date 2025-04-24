@@ -99,13 +99,11 @@ body{
   font-size: var(--fs-body);
   background-color: hsl(0 78% 62% / 10%);
 }
-main{
-  padding: 2rem;
-}
+
 
 /* desktop design */
 .wrapper{
-  margin: 2.4rem;
+  padding: 3rem;
 
   display: flex;
   flex-direction: column;
@@ -172,8 +170,8 @@ header {
 .Team-Builder,
 .Karma,
 .Calculator {
-  height: 200px;
-  width: 340px;
+  max-height: fit-content;
+  max-width: 340px;
   padding: 2rem;
   color: var(--grey-400);
   /* font-size: 12px; */
