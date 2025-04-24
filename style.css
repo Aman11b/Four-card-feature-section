@@ -99,13 +99,11 @@ body{
   font-size: var(--fs-body);
   background-color: hsl(0 78% 62% / 10%);
 }
-main{
-  padding: 2rem;
-}
+
 
 /* desktop design */
 .wrapper{
-  margin: 2.4rem;
+  padding: 3rem;
 
   display: flex;
   flex-direction: column;
@@ -172,8 +170,8 @@ header {
 .Team-Builder,
 .Karma,
 .Calculator {
-  height: 200px;
-  width: 340px;
+  max-height: fit-content;
+  max-width: 340px;
   padding: 2rem;
   color: var(--grey-400);
   /* font-size: 12px; */
@@ -218,14 +216,31 @@ header {
 
 /* mobile design */
 @media screen and (max-width: 375px) {
+
+  body{
+    padding-top: 2rem;
+  }
   
   .wrapper{
-    padding: 3rem;
+    padding: 2rem;
   }
 
   header {
     min-width: 32ch;
+
+  }
+
+  .first_heading {
     
+    font-size:1.5rem;
+    
+    
+  }
+
+  .second_heading {
+    
+    font-size:1.5rem;
+
   }
 
   .cards{
