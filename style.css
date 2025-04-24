@@ -216,14 +216,31 @@ header {
 
 /* mobile design */
 @media screen and (max-width: 375px) {
+
+  body{
+    padding-top: 2rem;
+  }
   
   .wrapper{
-    padding: 3rem;
+    padding: 2rem;
   }
 
   header {
     min-width: 32ch;
+
+  }
+
+  .first_heading {
     
+    font-size:1.5rem;
+    
+    
+  }
+
+  .second_heading {
+    
+    font-size:1.5rem;
+
   }
 
   .cards{
